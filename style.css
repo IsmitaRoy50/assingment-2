@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+
+}
+header{
+    width: 1350px;
+    height: 1300px;
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+    
+/* nav style part */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+    
+    
+    
+}
+nav ul{
+    display: flex;
+    width: 400px;
+    height: 20px;
+    margin-right: 200px;
+    
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-top: 10px;
+    padding: 30px;
+  
+}
+
+.nav-title{
+  font-family: 'Work Sans';
+    font-weight: 700;
+    color: #131313;
+    font-size: normal;
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+}
+ul li{
+  font-family: 'Work Sans';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: #424242;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+  /* architect-praghrap */
+
+
+  .architects{
+      width: 800px;
+      height: 330px;
+      margin-left: 300px; 
+      margin-top: 100px;
+      
+  }
+  .title{
+    width: 600px ;
+    height: 200px;
+    text-align: center;
+  }
+ .architect-title{
+    font-size: 64px;
+    font-family: 'Work Sans'
+    font-style:normal;
+    font-weight:700;
+    line-height: 60px;
+    text-align: center;
+  
+    /* margin-left: 400px; */
+    /* margin-top: 200px; */
+  }
+
+  p{
+    font-family: "work sans";
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    line-height:26px ;
+    text-align: center;
+    height: 56px;
+    width: 600px;
+   margin-left: 90px;
+    margin-top: 0px;
+
+    color: #727272;
+  }
+  .explore{
+    text-align: center;
+  }
+
+  button{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    width: 140px;
+    height: 50px; 
+    font-weight: 600;
+    font-size: 13px;
+    padding: 1px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  img{
+    width: 1000px;
+    height: 500px;
+    margin-left: 225px;
+    margin-top: 50px ;
+    background: url(group-three-modern-architects.jpg);
+    border-radius: 8px;
+
+  }
+  /* feature section start */
+  main{
+
+  }
+
+  .container{
+
+     display: flex;
+     flex-wrap: nowrap;
+     
+   }
+
+   .feature-info{
+      
+   }
+   .feature-text{
+    text-align: left;
+   }
+  .feature-img{
+    width: 220px;
+    height: 700px;
+     display: grid; 
+     grid-template-columns: repeat(2, 1fr); 
+    
+     grid-gap:2px
+
+  }
+  .img2{
+  
+  }
+
+  .img{
+     width: 250px;
+     height: 250px;
+     margin: 10px;
+  }
+  .k{
+    color: #727272;
+  }
+  .rgb{
+    color: #FF900E;
+  }
+  .btn{
+    border-radius: 8px;
+    align-items:flex-start;
+  }
+
+
+  /* container-2 style start */
+    
+      .section-1{
+        width: 1300px;
+        height: 1059px;
+      }
+     .container-1{
+      display: flex;
+      /* width: 586px; */
+      /* height:97px; */
+     }
+     .container-2{
+      width: 330px;
+      height: 800px;
+      margin-left: 150px;
+      margin-top: 25px;
+     }
+     .pra-1{
+      width: 300px;
+      height: 160px;
+      margin-bottom: 20px;
+     }
+     .pra-1 .h1{
+      width: 400px;
+      height: 100px;
+      margin-left: 0;
+      font-family:sans-serif
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 50px;
+      color: #131313;
+      
+    
+      
+     }
+      .pra-1 .p-1{
+      width: 370px;
+      height: 78px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      color: #727272;
+      margin-bottom: 24px;
+      margin-left: 0;
+      
+     }
+     .pra-2{
+      width: 440px;
+      height: 140px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+      border-radius: 8px;
+      margin-top: 20px;
+      
+     }
+      .pra-2 .p-title{
+      width: 250px;
+      height: 23px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 20px;
+      color: #131313;
+      padding: 10px;
+      margin-left: 20px;
+     }
+     .pra-2 p{
+      width: 300px;
+      height: 70px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+       line-height: 26px;
+       margin-left: 20px;
+      color: #727272;
+     }
+     .pra-3{
+      width: 440px;
+      height: 140px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+      border-radius: 8px;
+      margin-top: 20px;
+     }
+     .pra-3 .p-title{
+      width: 250px;
+      height: 23px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 20px;
+      padding: 10px;
+      color: #131313;
+      margin-left: 20px;
+     }
+     .pra-3 p{
+      width: 300px;
+       height: 70px;
+       font-family: 'Work Sans';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 13px;
+      line-height: 26px;
+      color: #727272;
+      margin-left: 20px;
+     }
+    .pra-4{
+      width: 440px;
+      height: 171px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .pra-4 .p-title{
+     width: 250px;
+     height: 23px;
+     font-family: 'Work Sans';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 15px;
+     padding: 10px;
+     line-height: 20px;
+     color: #131313;
+     margin-left: 20px;
+    }
+    .pra-4 p{
+      width: 300px;
+     height: 70px;
+     font-family: 'Work Sans';
+     font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    color: #727272;
+    margin-left: 20px;
+    }
+    .pra-5{
+      width: 440px;
+      height: 160px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .pra-5 .p-title{
+      width: 250px;
+       height: 23px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 20px;
+      padding: 10px;
+      color: #131313;
+      margin-left: 20px;
+    }
+    .pra-5 p{
+      width: 300px;
+    height: 70px;
+    font-family: 'Work Sans'
+    font-style: normal;
+    font-weight: 400;
+   font-size: 13px;
+    line-height: 26px;
+   color: #727272;
+   margin-left: 20px;
+    }
+     .img-1{
+
+      height: 800px;
+      width: 500px;
+      background: url("successful-business-concept-businesswoman-are-smiling-standing-with-crossed-arms-office.jpg");
+      border-radius: 8px;
+    
+     }
+    /*--------------- section-3 start-------------  */
+
+    .icon-box{
+
+    }
+   .box-1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transform: rotate;
+    flex-direction: column;
+   }
+   .box-1 .icon1{
+         width: 40px;
+         height: 40px;
+   }
+
