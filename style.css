@@ -66,16 +66,19 @@ ul li{
       
   }
   .title{
-    width: 600px ;
-    height: 200px;
+    width: 380px ;
+    height: 120px;
     text-align: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    
   }
  .architect-title{
-    font-size: 64px;
-    font-family: 'Work Sans'
+    font-size: 41px;
+    font-family: 'Work Sans';
     font-style:normal;
-    font-weight:700;
-    line-height: 60px;
+    font-weight:600;
+     margin-left: 50px;
     text-align: center;
   
     /* margin-left: 400px; */
@@ -89,7 +92,7 @@ ul li{
     font-style: normal;
     line-height:26px ;
     text-align: center;
-    height: 56px;
+    height: 50px;
     width: 600px;
    margin-left: 90px;
     margin-top: 0px;
@@ -128,22 +131,26 @@ ul li{
   .container{
 
      display: flex;
-     flex-wrap: nowrap;
+     align-items: center;
      
    }
 
    .feature-info{
+      width: 700px;
+      height: 700px;
       
    }
    .feature-text{
     text-align: left;
+    margin: 0;
    }
   .feature-img{
     width: 220px;
     height: 700px;
      display: grid; 
      grid-template-columns: repeat(2, 1fr); 
-    
+     grid-row-gap: 1px;
+    margin-left: 120px;
      grid-gap:2px
 
   }
@@ -154,7 +161,7 @@ ul li{
   .img{
      width: 250px;
      height: 250px;
-     margin: 10px;
+     margin: 3px;
   }
   .k{
     color: #727272;
@@ -194,7 +201,7 @@ ul li{
       width: 400px;
       height: 100px;
       margin-left: 0;
-      font-family:sans-serif
+      font-family:sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
@@ -334,7 +341,7 @@ ul li{
     .pra-5 p{
       width: 300px;
     height: 70px;
-    font-family: 'Work Sans'
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
    font-size: 13px;
@@ -350,21 +357,97 @@ ul li{
       border-radius: 8px;
     
      }
+     .orengg{
+      width: 220px;
+      height: 140px;
+    
+     }
+    
+     .size{
+      font-size: 40px;
+     }
+     /* container-2 style end */
+      /* ------------------------- */
+
     /*--------------- section-3 start-------------  */
 
-    .icon-box{
-
+    .section-3{
+      /* width: 700px; */
+      /* height: 300px; */
     }
-   .box-1{
-    width: 200px;
-    height: 200px;
-    border: 1px solid #FF900E;
-    border-radius: 8px;
-    transform: rotate;
-    flex-direction: column;
-   }
-   .box-1 .icon1{
-         width: 40px;
-         height: 40px;
-   }
+    .container-5{
+      width: 700px;
+      height: 800px;
+      display: flex;
+    }
+    .fact{
+    
+    }
+    .some-fact{
+  
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+    
+      margin-left: 254px;
+      color: #131313;
+    }
+    .text-0{
+      width: 300px;
+      height: 40px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 200;
+      font-size: 12px;
+      margin-left: 220px;
+    }
 
+
+      
+    
+    .icon1, .icon2, .icon3, .icon4{
+      width: 24px;
+      height: 24px;
+    }
+
+    /*----------------------------- footer part ------------------------------------------------------------------*/
+      
+      .container6{
+        width: 900px;
+        height: 700px;
+      }
+      .sponspor{
+
+        width: 400px;
+        height: 120px;
+        margin-left: 400px;
+        
+      
+      }
+      .last-title{
+        width: 400px;
+        height: 50px;
+        font-family: 'Work Sans';
+        font-style: normal;
+         font-weight: 700;
+        font-size: 38px;
+        color: #131313;
+        text-align: center;
+      }
+      .last-pra{
+        width: 400px;
+        height: 40px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        margin: 0%;
+        font-size: 13px;
+        color: #727272;
+        text-align: center;
+      
+      }
+      
+
+    
+  
